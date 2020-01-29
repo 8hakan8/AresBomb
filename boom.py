@@ -3,7 +3,7 @@ import requests, random, datetime, sys, time, argparse, os
 _count_finish = 0
 
 def update():
-	version = 1.00
+	version = 1.01
 	print("Проверка обновлений")
 	try:
 		upd=requests.get('https://raw.githubusercontent.com/MaksPV/AresBomb/master/last_version.txt')
@@ -35,7 +35,7 @@ while True:
  | |_) | (_) | | | | | | |_) |
  |____/ \___/|_| |_| |_|_.__/ 
 	                              
-by MaksPV
+by MaksPV original by @codingbots
 	"""
 	if update() == "exit": exit()
 	time.sleep(1)
