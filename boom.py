@@ -12,7 +12,7 @@ def update():
 			print("Найдено обновление\n" + upd.text[0:6] + "\nИзменения:\n" + upd.text[7:])
 			print("\nНачато обновление")
 			upd_boom=requests.get('https://raw.githubusercontent.com/MaksPV/AresBomb/master/boom.py')
-			f = open("boomer.py", "wb")
+			f = open("boom.py", "wb")
 			f.write(upd_boom.content)
 			f.close()
 			return "exit"
