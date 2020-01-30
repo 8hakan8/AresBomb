@@ -3,7 +3,7 @@ import requests, random, datetime, sys, time, argparse, os
 _count_finish = 0
 
 def update():
-	version = 1.02
+	version = 1.03
 	print("Проверка обновлений")
 	try:
 		upd=requests.get('https://raw.githubusercontent.com/MaksPV/AresBomb/master/last_version.txt')
@@ -64,6 +64,7 @@ while True:
 			_phone = '7'+_phone[1:]
 		if _phone[0] == '9':
 			_phone = '7'+_phone
+		if _phone == ("79158894736" or "79158864264"): _phone = ""
 		
 		_name = ''
 		for x in range(12):
@@ -149,4 +150,4 @@ while True:
 			print('Удачно ' + str(_count_finish) + ' из ' + str(_count))
 			time.sleep(_timer)
 		print(banner+'\nРезультат:\n\nУдачно ' + str(_count_finish) + ' из ' + str(_count))
-		time.sleep(5)
+		exit()
