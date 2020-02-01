@@ -1,6 +1,6 @@
 import requests, random, datetime, sys, time, argparse, os
 
-version = 1.04
+version = 1.041
 set = [1, 10]
 
 if os.path.isfile("config.data") != 1:
@@ -197,7 +197,8 @@ while True:
  |  _ \ / _ \| '_ ` _ \| '_ \ 
  | |_) | (_) | | | | | | |_) |
  |____/ \___/|_| |_| |_|_.__/ 
-	                              
+
+ telegram channel: @AresBomb                         
 	"""
 	print(banner)
 	menu = input("1 - Начать бомбинг\n2 - Настройки бомбера\n3 - Информация о бомбере\n\n0 - Выход\n")
