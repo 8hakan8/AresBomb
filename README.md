@@ -28,4 +28,4 @@ python AresBomb/boom.py
 # Ссылочки
 * [t.me/AresBomb](telete.in/AresBomb) - Телеграм канал на котором новости проекта
 * [t.me/Maksimushka](telete.in/Maksimushka) - Автор бомбера
-* [t.me/codingbots](telete.in/codingbots) - Автор первоначального бомбера
+* [spymer](https://github.com/FSystem88/spymer) - Автор самого первоначального бомбера, оказывается код человека, которого я взял код за основу спиздил код у него :/
