@@ -26,8 +26,6 @@ python AresBomb/boom.py
 ```
 
 # Ссылочки
-* [t.me/AresBomb] - Телеграм канал на котором новости проекта
-* [t.me/Maksimushka] - Автор бомбера
-
-
-* [t.me/codingbots] - Автор первоначального бомбера
+* [t.me/AresBomb](t.me/AresBomb) - Телеграм канал на котором новости проекта
+* [t.me/Maksimushka](t.me/Maksimushka) - Автор бомбера
+* [t.me/codingbots](t.me/codingbots) - Автор первоначального бомбера
